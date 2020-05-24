@@ -15,5 +15,5 @@ public class SolutionRemoveDuplicates {
         }
         return p + 1;
     }
-    
+
 }
