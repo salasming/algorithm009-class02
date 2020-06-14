@@ -17,7 +17,10 @@
   - 存在上下界
   - 能够通过索引访问
   
-- 二分查找模板
+
+二分查找模板
+
+```
 # Python
 left, right = 0, len(array) - 1 
 while left <= right: 
@@ -29,3 +32,4 @@ while left <= right:
 		    left = mid + 1 
 	  else: 
 		    right = mid - 1
+```
